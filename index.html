@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vasil Karatashev Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+      integrity="sha512-ymdTQyUk0UfVv71LHB/INBdluI7qg0WKX5Wy9DZNsYcliOVveSy42TBPcgbhm/RSsIHLj+3YlAfDL+/WgBMaIA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha512-0S+nbAYis87iX26mmj/+fWt1MmaKCv80H+Mbo+Ne7ES4I6rxswpfnC6PxmLiw33Ywj2ghbtTw0FkLbMWqh4F7Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+       <a href="index.html"><img src="img/console.log(karatasev); with white.png" alt=""/></a> 
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me </a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I'm <strong>Vasil Karatashev</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+      <img src="img/nature" alt="picture of Vasil" class="intro__img" />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">
+        What I do at the moment
+      </h2>
+      <div class="services">
+        <div class="service">
+          <h3>Building while learning</h3>
+          <p>
+            That's the most effective way we hear all the time. Indeed it is.
+            You fail, you try again. You succeed, you continue. I started to build
+            small things at the beginning ispired sometimes by myself sometimes
+            from others. Bellow is my work while I'm learning.
+          </p>
+        </div>
+        <!-- /service -->
+
+        <div class="service">
+          <h3>Blogging on my tech blog</h3>
+          <p>
+            I started to blog about my journey because while writing and
+            explaining things i feel great and i am learning and motivating
+            myself. At the moment I'm blogging about my ways of learning things
+            and my story why i decided to enter in the development world. I'm
+            planing to continue writing more technical topics in the near
+            future.<br /><br/> <a href="https://hashnode.com/@karatashev" target="_blank" class="social-list__link social--list__item footer-link"><i class="fab fa-blogger"></i></a>
+          </p>
+        </div>
+        <!-- /service -->
+
+        <div class="service">
+          <h3>Document my journey</h3>
+          <p>
+            Tech twitter helps me a lot while I'm learning. It encouraged me to
+            start to document my journey very shortly after i started to be
+            passioned about software development. So ever since I'm twitting
+            almost every day about what I've learnt, my plans, post some coding
+            tips for others as well, my classes at the Academy etc. In a way you
+            are connecting with other people who share the same energy and
+            passion about coding.<br /><br/> <a href="https://twitter.com/VKaratashev" target="_blank" class="social-list__link social--list__item"><i class="fab fa-twitter-square"></i></a>
+          </p>
+        </div>
+        <!-- /service -->
+      </div>
+      <!-- /services -->
+      
+      <a href="#work" class="btn">My work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Front-end dev & IT enthusiast from Skopje
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Creative and positive guy with a sense of humor :) I'm curious and I'm constantly learning. I started being interested in IT and especially Front end development so I started to learn by myself and now I'm enrolled on Front end React program at Code Academy, Skopje.
+        </p>
+        <p>
+          When I'm not learning and coding i love DJing, Spotify, Sports, Hiking, Home barista.
+          #LearningNeverStops
+        </p>
+      </div>
+
+      <img src="img/without background.PNG" alt="vasil" class="about-me__img" />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        Segments of my work so far
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="portfolio-item1.html" class="portfolio__item">
+          <img
+            src="img/fitness trainer hero.png"
+            alt=""
+            class="portfolio__img"
+            width="400"
+          />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a href="portfolio-item5.html" class="portfolio__item">
+          <img
+            src="img/tip-calculator.png"
+            alt=""
+            class="portfolio__img"
+            width="400"
+          />
+        </a>
+
+        <!-- Portfolio item 03 -->
+        <a href="portfolio-item7.html" class="portfolio__item">
+          <img
+            src="img/todoApp.png"
+            alt=""
+            class="portfolio__img"
+            width="400"
+          />
+        </a>
+
+        <!-- Portfolio item 04 -->
+        <a href="portfolio-item2.html" class="portfolio__item">
+          <img
+            src="img/JS clock wall.png"
+            alt=""
+            class="portfolio__img"
+            width="400"
+          />
+        </a>
+
+        <!-- Portfolio item 05 -->
+        <a href="portfolio-item6.html" class="portfolio__item">
+          <img
+            src="img/password-checker.png"
+            alt=""
+            class="portfolio__img"
+            width="400"
+          />
+        </a>
+
+        <!-- Portfolio item 06 -->
+        <a href="portfolio-item3.html" class="portfolio__item">
+          <img
+            src="img/login-form.png"
+            alt=""
+            class="portfolio__img"
+            width="400"
+          />
+        </a>
+
+        <!-- Portfolio item 07 -->
+        <a href="portfolio-item1.html" class="portfolio__item">
+          <img
+            src="img/fitness trainer packages.png"
+            alt=""
+            class="portfolio__img"
+            width="400"
+          />
+        </a>
+
+        <!-- Portfolio item 08 -->
+        <a href="portfolio-item9.html" class="portfolio__item">
+          <img
+            src="img/band.png"
+            alt=""
+            class="portfolio__img"
+            width="400"
+          />
+        </a>
+
+        <!-- Portfolio item 09 -->
+        <a href="portfolio-item8.html" class="portfolio__item">
+          <img
+            src="img/dota2.png"
+            alt=""
+            class="portfolio__img"
+            width="400"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:karatashev@gmail.com" class="footer-link"
+        >karatashev@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social--list__item">
+          <a href="https://www.linkedin.com/in/vasil-karatashev-372175227/" target="_blank" class="social-list__link"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li class="social--list__item">
+          <a href="https://twitter.com/VKaratashev" target="_blank" class="social-list__link"><i class="fab fa-twitter-square"></i></a>
+        </li>
+        <li class="social--list__item">
+          <a href="https://hashnode.com/@karatashev" target="_blank" class="social-list__link"><i class="fab fa-blogger"></i></a>
+        </li>
+        <li class="social--list__item">
+          <a href="https://github.com/karatashev" target="_blank" class="social-list__link"><i class="fab fa-github-square"></i></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
